@@ -38,7 +38,7 @@ export function commit(opts: {
       ].join(' '),
       options: {
         stdio: 'inherit',
-        shell: '/bin/bash',
+        shell: 'bash',
       },
     },
     (err) => {
